@@ -1,0 +1,44 @@
+JS Vanila
+Javascript Assíncrono 6 aulas
+Javascript Array(keyed collections) 8 aulas
+Javascript ServerSide com node e mongodb 25 aulas
+API Rest - javascript, Node, Express e SQL(MySQL ou MariaDB) 21 aulas
+
+
+JS TypeScript
+
+JS React
+
+
+RoadMap.sh
+using this
+
+json
+scope  & function stack
+
+seção 1 
+objects basico
+
+seção 2
+constantes com const
+objecto math
+
+seção 3
+for in
+for of
+desestruturação de array
+
+seção 4 js functions (fazer inteira) 13 aulas 3h48m
+Closures
+funções recursivas
+funções geradoras
+escopo lexico retorno da função
+
+seção 6 objetcs and prototypes 13 aulas 3h56m
+
+total de aulas 46 = 35 dias se fizer duas aulas por dia
+
+ajax = asyncronous javascript and xml
+xhr = xml http request
+
+throw new error
