@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        table,
+        td,
+        table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+
+        table caption {
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        tfoot td,
+        thead th {
+            background: #ddd;
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+
+        .responsive-table {
+            max-width: 100%;
+            /* define o comportamento para quando algo ultrapassa o limite de largura da pagina
+            coloca a capacidade de deslizar no eixo x 
+            apenas para a div da tabela e o auto diz que vai fazer isso apenas quando precisar */
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div class="responsive-table">
+        <table>
+            <caption>uma descrição para tabela</caption>
+            <thead>
+                <tr>
+                    <th>Titulo1</th>
+                    <th>Titulo2</th>
+                    <th>Titulo3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">AQUI</td>
+                    <td>Corpo 2</td>
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>TOTAL:</td>
+                </tr>
+                <tr>
+                    <!-- o colspan só pode criar uma quebra de coluna de tabela
+                <td colspan="2">3</td> -->
+                    <td>R$ 555</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
